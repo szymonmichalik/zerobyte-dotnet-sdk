@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>CS1591</NoWarn>
+    <PackageId>ZeroByte.Fcm</PackageId>
+    <Version>1.1.0</Version>
+    <Authors>Szymon Michalik</Authors>
+    <Copyright>Copyright 2026 Szymon Michalik</Copyright>
+    <Description>FCM registrations and push parsing for a ZeroByte relay's push module.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://docs.zerobyte.cloud/sdk/dotnet/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zerobyte-cloud/zerobyte-dotnet-sdk</RepositoryUrl>
+    <PackageTags>end-to-end-encryption;relay;fcm;push</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../ZeroByte/ZeroByte.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ZeroByte/ZeroByte.csproj" />
+    <Project Path="src/ZeroByte.Apns/ZeroByte.Apns.csproj" />
+    <Project Path="src/ZeroByte.Fcm/ZeroByte.Fcm.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/ZeroByte.Tests/ZeroByte.Tests.csproj" />
+  </Folder>
+</Solution>
